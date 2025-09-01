@@ -1,5 +1,11 @@
 export const investingData = [
   {
+    title: "Suli Crypto Trading Bootcamp",
+    image: "/images/suli_crypto_trading_bootcamp.webp", 
+    link: "/Halaman/page/2/1",
+    category: "Modul Level 1",
+  },
+  {
     title: "Basic Market",
     image: "/images/B1.webp", 
     link: "/Halaman/page/2/1",

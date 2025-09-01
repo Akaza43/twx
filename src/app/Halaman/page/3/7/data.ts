@@ -28,9 +28,16 @@ export const Data = [
     category: "Member Only Live Replay",
   },
   {
-    id: "4",
+    id: "5",
     title: "Member Only Live Replay Sulianto, 15 Agu 2025",
     drive: "https://youtu.be/7nh-7whagDw?si=YJKUz_JaWTDoZCZR",
+    link: "/Halaman/page/3/7/4",
+    category: "Member Only Live Replay",
+  },
+  {
+    id: "6",
+    title: "Member Only Live Replay Sulianto, 25 Agu 2025",
+    drive: "https://youtu.be/WFAIo7bMJCA?si=Em_3KWxKqyj398ou",
     link: "/Halaman/page/3/7/4",
     category: "Member Only Live Replay",
   },

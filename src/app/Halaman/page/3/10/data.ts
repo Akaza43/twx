@@ -153,4 +153,25 @@ export const Data = [
     link: "/Halaman/page/3/10/17",
     category: "Member Only Live Replay",
   },
+  {
+    id: "18",
+    title: "Quant Live 24 Agu 2025",
+    drive: "https://youtu.be/u1vHOJHJlrs?si=uBEUZnYoX7XcXMPv",
+    link: "/Halaman/page/3/10/17",
+    category: "Member Only Live Replay",
+  },
+  {
+    id: "19",
+    title: "Quant Live 26 Agu 2025",
+    drive: "https://youtu.be/4FXRm42GAfA?si=9hX0SzRsumO1qBRl",
+    link: "/Halaman/page/3/10/17",
+    category: "Member Only Live Replay",
+  },
+  {
+    id: "20",
+    title: "Quant Live 28 Agu 2025",
+    drive: "https://youtu.be/LCgjRrpPgVM?si=IRfcbAVfCxNXyhRl",
+    link: "/Halaman/page/3/10/17",
+    category: "Member Only Live Replay",
+  },
 ];

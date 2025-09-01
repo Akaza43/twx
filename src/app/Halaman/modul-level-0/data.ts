@@ -6,6 +6,12 @@ export const tradingData = [
     category: "Modul Level 0",
   },
   {
+    title: "Decoding The Crypto Cycle - Trade With Suli Modul",
+    image: "/images/dicoding_crypto_cycle.webp",
+    link: "/Halaman/page/1/15",
+    category: "Modul Level 0",
+  },
+  {
     title: "Eth Supercycle",
     image: "/images/eth-supecycle.webp",
     link: "/Halaman/page/1/14",
