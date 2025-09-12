@@ -6,6 +6,18 @@ export const tradingData = [
     category: "Modul Level 0",
   },
   {
+    title: "Personal Finance Blueprint",
+    image: "/images/personal-finance-blueprint1.webp",
+    link: "/Halaman/page/1/17",
+    category: "Modul Level 0",
+  },
+  {
+    title: "Prediksi Q4 Arah Bitcoin & ALtcoin",
+    image: "/images/prediksi_q4.webp",
+    link: "/Halaman/page/1/16",
+    category: "Modul Level 0",
+  },
+  {
     title: "Decoding The Crypto Cycle - Trade With Suli Modul",
     image: "/images/dicoding_crypto_cycle.webp",
     link: "/Halaman/page/1/15",
