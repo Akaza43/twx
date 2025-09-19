@@ -20,4 +20,25 @@ export const Data = [
     link: "/Halaman/page/1/13/1",
     category: "Cara Recovery Portofolio Drawdown Start",
   },
+  {
+    id: "4",
+    title: "Sesi 4 - Mengelola Utang dan Gaya Hidup",
+    drive: "https://youtu.be/v632zVO8ql4?si=Sm9zFxUxQr4eTBhY",
+    link: "/Halaman/page/1/13/1",
+    category: "Cara Recovery Portofolio Drawdown Start",
+  },
+  {
+    id: "5",
+    title: "Sesi 5 - Financial Modeling untuk Personal Finance",
+    drive: "https://youtu.be/XBpxXykc-10?si=N0yfoTRBcwiFgZ2f",
+    link: "/Halaman/page/1/13/1",
+    category: "Cara Recovery Portofolio Drawdown Start",
+  },
+  {
+    id: "6",
+    title: "Sesi 6 - Membangun Rencana Keuangan Jangka Panjang",
+    drive: "https://youtu.be/UEWVIF8zOF0?si=VDzQwuJW4RRfKBhp",
+    link: "/Halaman/page/1/13/1",
+    category: "Cara Recovery Portofolio Drawdown Start",
+  },
 ];
