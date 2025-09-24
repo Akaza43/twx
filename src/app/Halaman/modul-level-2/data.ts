@@ -30,12 +30,6 @@ export const blockchainData = [
     category: "Modul Level 3",
   },
   {
-    title: "-",
-    image: "/images/C6.webp", 
-    link: "/Halaman/page/3/6",
-    category: "Modul Level 3",
-  },
-  {
     title: "Live Suli",
     image: "/images/livesuli.svg", 
     link: "/Halaman/page/3/7",

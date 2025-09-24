@@ -1,5 +1,11 @@
 export const investingData = [
   {
+    title: "Crypto Elliot Wave SecretsStart",
+    image: "/images/Crypto-Elliot-wave-Secrets-1.webp", 
+    link: "/Halaman/page/2/26",
+    category: "Modul Level 1",
+  },
+  {
     title: "Suli Crypto Trading Bootcamp",
     image: "/images/suli_crypto_trading_bootcamp.webp", 
     link: "/Halaman/page/2/25",

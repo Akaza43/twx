@@ -1,6 +1,12 @@
 export const liveclassData= [
   {
     title: "-",
+    image: "/images/C6.webp", 
+    link: "/Halaman/page/3/6",
+    category: "Modul Level 3",
+  },
+  {
+    title: "-",
     image: "/images/D3.webp", 
     link: "/Halaman/page/4/2",
     category: "Modul Level 4",
