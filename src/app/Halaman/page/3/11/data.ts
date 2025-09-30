@@ -216,4 +216,13 @@ export const Data = [
     link: "/Halaman/page/3/10/31",
     category: "Member Only Live Replay",
   },
+  {
+    id: "32",
+    title: "Live Mira, 28 September - BTC Update - Trade With Suli Live",
+    drive: "https://youtu.be/2Vb3P8AEy8g?si=EUIBNBXaO-Ak8sUL",
+    link: "/Halaman/page/3/10/31",
+    category: "Member Only Live Replay",
+  },
 ];
+
+export const ReversedData = [...Data].reverse();

@@ -216,4 +216,20 @@ export const Data = [
     link: "/Halaman/page/3/10/31",
     category: "Member Only Live Replay",
   },
+  {
+    id: "32",
+    title: "Live Quant, 23 Sep 2025 - Trade With Suli Live",
+    drive: "https://youtu.be/MAQ2hF7dGjU?si=VrCMx-foH39OlT48",
+    link: "/Halaman/page/3/10/31",
+    category: "Member Only Live Replay",
+  },
+  {
+    id: "33",
+    title: "Live Quant, 25 Sep 2025 - Trade With Suli Live",
+    drive: "https://youtu.be/5RS8Bk6eYLw?si=HCaNMjBtr3MfxvjR",
+    link: "/Halaman/page/3/10/31",
+    category: "Member Only Live Replay",
+  },
 ];
+
+export const ReversedData = [...Data].reverse();

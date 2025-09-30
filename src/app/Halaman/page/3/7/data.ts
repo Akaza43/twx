@@ -62,4 +62,20 @@ export const Data = [
     link: "/Halaman/page/3/7/9",
     category: "Member Only Live Replay",
   },
+  {
+    id: "10",
+    title: "Live Sulianto, 24 Sep 2025 - Trade With Suli Live",
+    drive: "https://youtu.be/2bnpDcpMuUI?si=u8wl_JyE-nZY3rcF",
+    link: "/Halaman/page/3/7/9",
+    category: "Member Only Live Replay",
+  },
+  {
+    id: "11",
+    title: "Live Sulianto, 27 Sep 2025 - Trade With Suli Live",
+    drive: "hhttps://youtu.be/SDgg2ISN2WY?si=iygiq29X6JqSapyw",
+    link: "/Halaman/page/3/7/9",
+    category: "Member Only Live Replay",
+  },
 ];
+
+export const ReversedData = [...Data].reverse();
