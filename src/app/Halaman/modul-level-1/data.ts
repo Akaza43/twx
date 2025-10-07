@@ -114,12 +114,6 @@ export const investingData = [
     category: "Modul Level 1",
   },
   {
-    title: "Bias Dunia Investasi",
-    image: "/images/bias-didunia-investasi.webp", 
-    link: "/Halaman/page/2/17",
-    category: "Modul Level 1",
-  },
-  {
     title: "tws-internal",
     image: "/images/tws-internal.webp", 
     link: "/Halaman/page/2/19",
