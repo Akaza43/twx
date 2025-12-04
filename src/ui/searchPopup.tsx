@@ -78,7 +78,7 @@ const SearchPopup = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
                 placeholder="Type to search for pages..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                className="w-full p-3 rounded-lg bg-gray-900/90 text-white focus:outline-none focus:ring-2 focus:ring-purple-500/50 placeholder-gray-500 text-base pr-10"
+                className="w-full p-3 rounded-lg bg-gray-900/90 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500/50 placeholder-gray-500 text-base pr-10"
                 autoFocus
               />
               <span 

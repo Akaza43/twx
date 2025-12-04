@@ -2,11 +2,9 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
-import { investingData } from '../modul-level-1/data';
-import { blockchainData } from '../modul-level-2/data';
-import { lev3Data } from '../modul-level-3/data';
-import { liveclassData } from '../modul-level-4/data';
 import { MdKeyboardArrowDown } from 'react-icons/md';
+import { tradingData } from '../modul-level-0/data';
+import { investingData } from '../modul-level-1/data';
 
 export default function AllClassesPage() {
   const [imgError, setImgError] = useState({});
@@ -15,9 +13,7 @@ export default function AllClassesPage() {
   // Gabungkan semua data modul
   const allClasses = [
     ...investingData,
-    ...blockchainData,
-    ...lev3Data,
-    ...liveclassData,
+    ...tradingData,
   ];
 
   function handleImageError(link) {

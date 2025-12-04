@@ -97,7 +97,7 @@ export default function Container() {
             {/* Video container with enhanced styling */}
             <div className="relative aspect-video bg-black rounded-3xl overflow-hidden shadow-2xl border border-gray-800/50 group">
               {/* Glowing border effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-cyan-500/20 to-blue-500/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/20 via-amber-500/20 to-yellow-500/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
               
 
 
@@ -134,7 +134,7 @@ export default function Container() {
             {/* Enhanced title section */}
             <div className="mt-6">
               <div className="flex items-center gap-3 mb-2">
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-blue-600/20 to-cyan-600/20 rounded-full border border-blue-500/30">
+                <div className="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-yellow-600/20 to-amber-600/20 rounded-full border border-yellow-500/30">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                   <span className="text-xs font-medium text-gray-300">Lesson {currentIndex + 1} of {Data.length}</span>
                 </div>
@@ -145,7 +145,7 @@ export default function Container() {
               <h1 className="text-2xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-100 to-gray-300 tracking-tight leading-tight">
                 {videoData?.title || "Untitled Lesson"}
               </h1>
-              <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full mt-3"></div>
+              <div className="w-24 h-1 bg-gradient-to-r from-yellow-500 to-amber-500 rounded-full mt-3"></div>
             </div>
           </div>
         </div>
@@ -154,11 +154,11 @@ export default function Container() {
         <div className="lg:w-[40%] bg-black border-l border-gray-800/30 min-h-screen relative">
           <div className="sticky top-0 bg-black/80 backdrop-blur-md border-b border-gray-800/30 p-4 lg:p-6 z-20">
             <div className="flex items-center justify-between">
-              <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
+              <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-400">
                 MODUL LEVEL 0
               </h2>
               <div className="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-gray-800/50 to-gray-700/50 rounded-full border border-gray-600/30">
-                <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
                 <span className="text-sm font-medium text-gray-300">{Data.length} Lessons</span>
@@ -180,15 +180,15 @@ export default function Container() {
                 {/* Background with gradient and effects */}
                 <div className={`absolute inset-0 rounded-2xl transition-all duration-300 ${
                   videoId === item.id
-                    ? "bg-gradient-to-r from-blue-600/30 via-blue-500/20 to-cyan-600/30 shadow-lg shadow-blue-500/25"
-                    : "bg-gradient-to-r from-gray-800/40 to-gray-700/40 group-hover:from-blue-600/20 group-hover:to-cyan-600/20"
+                    ? "bg-gradient-to-r from-yellow-600/30 via-yellow-500/20 to-amber-600/30 shadow-lg shadow-yellow-500/25"
+                    : "bg-gradient-to-r from-gray-800/40 to-gray-700/40 group-hover:from-yellow-600/20 group-hover:to-amber-600/20"
                 }`}></div>
                 
                 {/* Border gradient */}
                 <div className={`absolute inset-0 rounded-2xl border transition-all duration-300 ${
                   videoId === item.id
-                    ? "border-blue-500/50 shadow-lg"
-                    : "border-gray-700/50 group-hover:border-blue-500/30"
+                    ? "border-yellow-500/50 shadow-lg"
+                    : "border-gray-700/50 group-hover:border-yellow-500/30"
                 }`}></div>
 
                 {/* Content */}
@@ -196,8 +196,8 @@ export default function Container() {
                   {/* Lesson number */}
                   <div className={`flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-sm font-bold transition-all duration-300 ${
                     videoId === item.id
-                      ? "bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-lg"
-                      : "bg-gray-700/50 text-gray-300 group-hover:bg-gradient-to-br group-hover:from-blue-600/50 group-hover:to-cyan-600/50"
+                      ? "bg-gradient-to-br from-yellow-500 to-amber-500 text-white shadow-lg"
+                      : "bg-gray-700/50 text-gray-300 group-hover:bg-gradient-to-br group-hover:from-yellow-600/50 group-hover:to-amber-600/50"
                   }`}>
                     {index + 1}
                   </div>
@@ -215,8 +215,8 @@ export default function Container() {
                     </h3>
                     <div className={`flex items-center gap-2 mt-1 transition-all duration-300 ${
                       videoId === item.id
-                        ? "text-blue-200"
-                        : "text-gray-500 group-hover:text-blue-300"
+                        ? "text-yellow-200"
+                        : "text-gray-500 group-hover:text-yellow-300"
                     }`}>
                       <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3" />
@@ -229,7 +229,7 @@ export default function Container() {
                   {/* Status indicator */}
                   {videoId === item.id && (
                     <div className="flex-shrink-0">
-                      <div className="w-2 h-8 bg-gradient-to-b from-blue-400 to-cyan-400 rounded-full"></div>
+                      <div className="w-2 h-8 bg-gradient-to-b from-yellow-400 to-amber-400 rounded-full"></div>
                     </div>
                   )}
                 </div>
@@ -248,11 +248,11 @@ export default function Container() {
           border-radius: 10px;
         }
         .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: linear-gradient(to bottom, rgb(59, 130, 246), rgb(6, 182, 212));
+          background: linear-gradient(to bottom, rgb(234, 179, 8), rgb(245, 158, 11));
           border-radius: 10px;
         }
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-          background: linear-gradient(to bottom, rgb(37, 99, 235), rgb(8, 145, 178));
+          background: linear-gradient(to bottom, rgb(202, 138, 4), rgb(217, 119, 6));
         }
         
         /* Hide bottom navbar on desktop for this page only */

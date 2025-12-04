@@ -20,13 +20,13 @@ export const domainConfigs: DomainConfig[] = [
 export const getKomunitasLink = () => {
   if (typeof window !== 'undefined') {
     const config = domainConfigs.find(d => d.hostname === window.location.hostname);
-    return config?.url || '/menu/komunitas';
+    return config?.url || '/profile';
   }
-  return '/menu/komunitas';
+  return '/profile';
 };
 
 export const navigationLinks = {
   home: "/",
-  research: "/menu/research",
+  research: "/profile",
   komunitas: getKomunitasLink(),
 };

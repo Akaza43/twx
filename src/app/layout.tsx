@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/app/globals.css";
 import SessionProviderWrapper from "@/components/SessionProviderWrapper";
 import Menu from "@/components/Menu";
 import Nav from "@/ui/nav";
@@ -10,7 +10,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Trade With Suli App",
+  title: "Trade With Xander App",
   description: "Learn about crypto trading",
   icons: {
     icon: "/favicon.ico"

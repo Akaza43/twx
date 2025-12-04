@@ -68,22 +68,22 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-black p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
         {/* Profile Section */}
-        <div className="bg-black rounded-xl p-6 mb-6 border border-gray-900 hover:border-purple-500/50 transition-all duration-300">
+        <div className="bg-black rounded-xl p-6 mb-6 border border-gray-900 hover:border-yellow-500/50 transition-all duration-300">
           <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
             {/* Avatar with glow effect */}
             <div className="relative">
-              <div className="absolute -inset-2 bg-purple-500/20 rounded-full blur-lg opacity-50"></div>
+              <div className="absolute -inset-2 bg-yellow-500/20 rounded-full blur-lg opacity-50"></div>
               <img
                 src={session?.user?.image || ''}
                 alt="Profile"
-                className="relative w-28 h-28 rounded-full border-2 border-purple-500/20 z-10"
+                className="relative w-28 h-28 rounded-full border-2 border-yellow-500/20 z-10"
               />
             </div>
 
             {/* User Info */}
             <div className="flex-1">
               <div className="text-center md:text-left">
-                <h1 className="text-2xl font-bold text-purple-500">
+                <h1 className="text-2xl font-bold text-yellow-500">
                   {session?.user?.name}
                 </h1>
                 <div className="flex items-center justify-center md:justify-start mt-2 text-gray-500 group">
@@ -91,7 +91,7 @@ export default function ProfilePage() {
                   <span>{showEmail ? session?.user?.email : maskEmail(session?.user?.email || '')}</span>
                   <button
                     onClick={() => setShowEmail(!showEmail)}
-                    className="ml-2 text-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    className="ml-2 text-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                   >
                     {showEmail ? <BsEyeSlashFill size={16} /> : <BsEyeFill size={16} />}
                   </button>
@@ -102,7 +102,7 @@ export default function ProfilePage() {
             {/* Sign Out Button */}
             <button
               onClick={() => signOut({ callbackUrl: "/" })}
-              className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-purple-500/20 p-0.5 transition-all hover:scale-105"
+              className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-yellow-500/20 p-0.5 transition-all hover:scale-105"
             >
               <span className="relative flex items-center gap-2 rounded-md px-6 py-3 bg-black transition-all duration-300 ease-out group-hover:bg-opacity-0">
                 <FaSignOutAlt />
@@ -113,13 +113,13 @@ export default function ProfilePage() {
         </div>
 
         {/* Roles Section */}
-        <div className="bg-black rounded-xl p-6 border border-gray-900 hover:border-purple-500/50 transition-all duration-300">
+        <div className="bg-black rounded-xl p-6 border border-gray-900 hover:border-yellow-500/50 transition-all duration-300">
           <div className="flex items-center mb-6">
-            <FaDiscord className="text-purple-600 w-5 h-5" />
-            <h2 className="ml-3 text-xl font-bold text-purple-500">
+            <FaDiscord className="text-yellow-500 w-5 h-5" />
+            <h2 className="ml-3 text-xl font-bold text-yellow-500">
               Discord Roles
             </h2>
-            <div className="ml-3 px-2 py-1 bg-purple-500/10 rounded-md text-sm text-gray-300 border border-purple-500/20">
+            <div className="ml-3 px-2 py-1 bg-yellow-500/10 rounded-md text-sm text-gray-300 border border-yellow-500/20">
               {roles.length} Roles
             </div>
           </div>

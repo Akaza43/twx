@@ -13,14 +13,14 @@ const Menu = () => {
   const router = useRouter();
   const pathname = usePathname();
 
-  const [komunitasUrl, setKomunitasUrl] = useState("/menu/komunitas");
+  const [komunitasUrl, setKomunitasUrl] = useState("/profile");
   const [komunitasExternal, setKomunitasExternal] = useState(false);
 
   useEffect(() => {
     const config = domainConfigs.find(
       (d) => d.hostname === window.location.hostname
     );
-    setKomunitasUrl(config?.url || "/menu/komunitas");
+    setKomunitasUrl(config?.url || "/profile");
     setKomunitasExternal(config?.openInNewTab ?? false);
   }, []);
 
@@ -43,38 +43,24 @@ const Menu = () => {
           onClick={() => router.push(navigationLinks.home)}
           className={`flex flex-col items-center p-4 flex-1 ${
             isActive(navigationLinks.home)
-              ? "text-blue-500"
-              : "text-gray-500 hover:text-blue-500"
+              ? "text-yellow-500"
+              : "text-gray-500 hover:text-yellow-500"
           }`}
         >
           <IoBookOutline className="text-xl mb-1" />
           <span className="text-xs">MODUL</span>
         </button>
-
-        {/* RESEARCH */}
-        <button
-          onClick={() => router.push(navigationLinks.research)}
-          className={`flex flex-col items-center p-4 flex-1 ${
-            isActive(navigationLinks.research)
-              ? "text-blue-500"
-              : "text-gray-500 hover:text-blue-500"
-          }`}
-        >
-          <IoDocumentTextOutline className="text-xl mb-1" />
-          <span className="text-xs">RESEARCH</span>
-        </button>
-
         {/* KOMUNITAS */}
         <button
           onClick={handleKomunitasClick}
           className={`flex flex-col items-center p-4 flex-1 ${
-            pathname === "/menu/komunitas"
-              ? "text-blue-500"
-              : "text-gray-500 hover:text-blue-500"
+            pathname === "/profile"
+              ? "text-yellow-500"
+              : "text-gray-500 hover:text-yellow-500"
           }`}
         >
           <IoPeopleOutline className="text-xl mb-1" />
-          <span className="text-xs">KOMUNITAS</span>
+          <span className="text-xs">PROFILE</span>
         </button>
       </nav>
     </div>
