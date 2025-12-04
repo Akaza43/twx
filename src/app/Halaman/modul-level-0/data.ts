@@ -8,13 +8,13 @@ export const tradingData = [
   {
     title: "Crypto Fundamentsal",
     image: "/images/A12.webp", 
-    link: "/Halaman/page/1/3",
+    link: "/Halaman/page/1/cf",
     category: "Modul Level 0",
   },
   {
-    title: "Crypto Fundamentsal",
+    title: "Bias Dunia Investasi",
     image: "/images/A16.webp", 
-    link: "/Halaman/page/1/4",
+    link: "/Halaman/page/1/3",
     category: "Modul Level 0",
   },
   {
